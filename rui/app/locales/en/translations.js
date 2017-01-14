@@ -6,8 +6,8 @@ export default {
   on: "On",
   off: "Off",
   hourly: "Hourly",
-  daily: "Daily",    
-  weekly: "Weekly",       
+  daily: "Daily",
+  weekly: "Weekly",
   monthly: "Monthly",
   yearly: "Yearly",
 
@@ -96,7 +96,15 @@ export default {
     autoUpdate: "Automatic tracking package update",
     autoUpdateLabel: "For automatic updates to recent changes in social media sites, switch on the automatic update function.",
     autoUpdateInterval: "Automatic update interval",
-    autoUpdateIntervalLabel: "ROSE checks automatically for tracking package updates in the specified time interval."
+    autoUpdateIntervalLabel: "ROSE checks automatically for tracking package updates in the specified time interval.",
+    lastChecked: "Last check",
+    never: "never",
+    lastUpdated: "Last update",
+    signedUpdate: "Signed",
+    unsignedUpdate: "Unsigned",
+    uptodate: "Everything is already up-to-date.",
+    error: "Update failed.",
+    success: "Update was successful."
   },
 
   resetConfigModal: {
@@ -220,7 +228,7 @@ export default {
     updateInterval: "Interval to check for an updated tracking package",
     updateIntervalLabel: "Choose a time interval to check for tracking package updates",
     baseFileNotFound: "Invalid repository base file URL.",
-    
+
     table: {
       enabled: "Status (on/off)",
       name: "Pattern name",
@@ -238,7 +246,7 @@ export default {
     message: "Log message",
     module: "Module name"
   },
-  
+
   observerEditor: {
     title: "Editor for Observer Patterns",
     subtitle: "This editor allows you to change observer patterns for testing reasons, or to create new ones. This function is for expert use only."
